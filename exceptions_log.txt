@@ -1,0 +1,26 @@
+2025-05-14 02:15:58,477 - ERROR - Please enter a valid number/// error occured in addition
+Traceback (most recent call last):
+  File "c:\Users\didif\OneDrive\Desktop\school\Summer2025\Calculator with Exception Handling.py", line 13, in addition
+    b = int(input("Enter the second number "))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'df'
+2025-05-14 02:16:04,241 - ERROR - Cannot divide by zero/// error occured in div
+Traceback (most recent call last):
+  File "c:\Users\didif\OneDrive\Desktop\school\Summer2025\Calculator with Exception Handling.py", line 46, in division
+    print(a/b)
+          ~^~
+ZeroDivisionError: division by zero
+2025-05-14 02:18:31,377 - ERROR - Cannot divide by zero/// error occured in div
+Traceback (most recent call last):
+  File "c:\Users\didif\OneDrive\Desktop\school\Summer2025\Calculator with Exception Handling.py", line 46, in division
+    print("The result of ", a , " / ", b, " is ", a/b)
+                                                  ~^~
+ZeroDivisionError: division by zero
+2025-05-14 02:19:02,102 - ERROR - Session Ended
+NoneType: None
+2025-05-14 02:23:35,487 - ERROR - Cannot divide by zero/// error occured in div
+Traceback (most recent call last):
+  File "c:\Users\didif\OneDrive\Desktop\school\Summer2025\Calculator with Exception Handling.py", line 47, in division
+    print("The result of ", a , " / ", b, " is ", a/b) #if everything is valid go ahead and print the output
+                                                  ~^~
+ZeroDivisionError: division by zero
