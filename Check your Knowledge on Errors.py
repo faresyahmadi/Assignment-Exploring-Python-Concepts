@@ -33,8 +33,23 @@ except KeyError:
 
 try:
     a =  "hi"
-    input = int(input("Enter a word "))
-    c = a + input
+    word = input("Enter anything ")
+    if word.isdigit(): 
+        word = int(word)
+    c = a + word
     print(c)
 except TypeError: 
     print("TypeError occurred! Unsupported operand types." )
+
+
+print("------------- Task3 ---------------------")
+input_1 = int(input("Enter the first number: "))
+input_2 = int(input("Enter the second number: "))
+try: 
+    div = input_1/input_2 
+except ZeroDivisionError: 
+    print("Cannot divide by zero")
+else: 
+    print(div)
+finally: 
+    print("thank you for using our div calculator")
